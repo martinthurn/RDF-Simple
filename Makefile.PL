@@ -1,4 +1,7 @@
 
+use warnings;
+use strict;
+
 my $VERSION = 1.28;
 
 use inc::Module::Install;
