@@ -1,0 +1,9 @@
+blib
+cover_db
+CVS
+ignore
+Makefile\z
+.old
+SKIP
+t/author
+.tar.gz
