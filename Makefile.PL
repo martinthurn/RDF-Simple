@@ -8,7 +8,7 @@ use inc::Module::Install;
 
 all_from('lib/RDF/Simple.pm');
 author('Martin Thurn mthurn@cpan.org');
-version(0.415);
+version(0.416);
 perl_version(5.005);
 
 requires('Class::MakeMethods');
