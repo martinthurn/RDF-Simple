@@ -6,12 +6,12 @@ my $VERSION = 1.28;
 
 use inc::Module::Install;
 
+version(0.417);
 all_from('lib/RDF/Simple.pm');
 author('Martin Thurn mthurn@cpan.org');
-version(0.416);
 perl_version(5.005);
 
-requires('Class::MakeMethods');
+requires('Class::MethodMaker');
 requires('File::Slurp');
 test_requires('IO::CaptureOutput');
 requires('LWP::UserAgent');

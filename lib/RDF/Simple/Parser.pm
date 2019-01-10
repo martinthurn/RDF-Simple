@@ -37,14 +37,14 @@ use LWP::UserAgent;
 use RDF::Simple::Parser::Handler;
 use XML::SAX qw(Namespaces Validation);
 
-our
-$VERSION = do { my @r = (q$Revision: 1.14 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+my
+$VERSION = 1.15;
 
 # Use a hash to implement objects of this type:
-use Class::MakeMethods::Standard::Hash (
-                                        new => 'new',
-                                        scalar => [ qw( base http_proxy )],
-                                       );
+use Class::MethodMaker [
+                        new => 'new',
+                        scalar => [ qw/ base http_proxy /, ],
+                       ];
 
 =item new( [ base => 'http://example.com/foo.rdf' ])
 
