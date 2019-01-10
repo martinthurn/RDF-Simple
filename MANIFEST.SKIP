@@ -1,6 +1,7 @@
 blib
 cover_db
 CVS
+.git
 ignore
 Makefile\z
 .old
