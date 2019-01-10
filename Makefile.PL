@@ -6,7 +6,7 @@ my $VERSION = 1.28;
 
 use inc::Module::Install;
 
-version(0.417);
+version(0.418);
 all_from('lib/RDF/Simple.pm');
 author('Martin Thurn mthurn@cpan.org');
 perl_version(5.005);
