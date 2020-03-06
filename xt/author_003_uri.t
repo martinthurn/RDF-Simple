@@ -1,5 +1,10 @@
 
-# $Id: author_003_uri.t,v 1.2 2008/12/15 22:51:27 Martin Exp $
+# This test is in the author section because it accesses the Internet
+# live (we don't want to fail users of this module just because
+# they're not connected at the time they install it)
+
+use strict;
+use warnings;
 
 use blib;
 use Test::More 'no_plan';
