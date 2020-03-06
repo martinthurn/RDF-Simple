@@ -1,9 +1,3 @@
-
-
-
-
-
-
 !Build/
 # Devel::Cover
 # Devel::NYTProf
@@ -25,6 +19,7 @@
 /MYMETA.*
 /Makefile
 /Makefile.old
+/RDF-Simple-*
 /_eumm/
 /blib/
 /pm_to_blib

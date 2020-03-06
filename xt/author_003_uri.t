@@ -21,7 +21,7 @@ my $uri = 'http://frot.org/foaf.rdf';
 # Above URL does not exist as of 2008-09-30
 $uri = 'http://danbri.org/foaf.rdf';
 my @triples = $par->parse_uri($uri);
-$rdf = $ser->serialise(@triples);
+my $rdf = $ser->serialise(@triples);
 print $rdf;
 pass;
 
